@@ -1,4 +1,4 @@
 baseURL = '/'
 languageCode = 'fr'
 title = 'jmontagnier-fr'
-theme = 'hello-friend-ng'
+theme = 'hello-friend'
