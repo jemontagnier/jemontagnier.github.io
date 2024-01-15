@@ -1,25 +1,18 @@
-baseURL = "https://jemontagnier.github.io"
+baseURL = "/"
 title   = "jmontagnier-fr"
-languageCode = "en-us"
+languageCode = "fr"
 theme = "hello-friend-ng"
-
-
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
-
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-
-
 # googleAnalytics = ""
 
 # disqusShortname = ""
-
-
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -40,7 +33,6 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
-
 
 
 [permalinks]
@@ -74,8 +66,6 @@ disableHugoGeneratorInject = false
   # Home subtitle of the index page.
   #
   homeSubtitle = "Home"
-
-
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"

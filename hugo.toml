@@ -1,4 +1,4 @@
-baseURL = 'https://jemontagnier.github.io/'
-languageCode = 'en-us'
+baseURL = '/'
+languageCode = 'fr'
 title = 'jmontagnier-fr'
 theme = 'hello-friend-ng'
