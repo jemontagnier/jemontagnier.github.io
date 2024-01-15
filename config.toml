@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "/"
 title   = "Hello Friend NG"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -39,10 +39,6 @@ disableHugoGeneratorInject = false
 [blackfriday]
   hrefTargetBlank = true
 
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
 
 [params]
   [params.author]
@@ -134,7 +130,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "$ cd /home/jerome"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
