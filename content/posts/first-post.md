@@ -1,9 +1,9 @@
 +++
-title = "About"
-date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
+title = "First post"
+date = "15-01-2024"
+aliases = [""]
 [ author ]
-  name = "Hugo Authors"
+  name = "Jerome"
 +++
 
 
