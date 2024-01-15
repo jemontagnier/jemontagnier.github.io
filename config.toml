@@ -29,7 +29,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
+    title = "jmontagnier-fr"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
@@ -40,13 +40,13 @@ paginate = 5
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+    dateFormatSingle = "02-01-2006"
+    dateFormatList = "02-01-2006"
     # leave empty to disable, enter display text to enable
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "cd /home/jerome/"
       logoHomeLink = "/"
     # or
     #
