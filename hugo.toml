@@ -24,7 +24,7 @@ buildFuture  = false
 buildExpired = false
 canonifyURLs = true
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
@@ -243,10 +243,10 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
