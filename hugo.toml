@@ -1,6 +1,6 @@
 baseURL = "/"
 title   = "jmontagnier-fr"
-languageCode = "fr"
+languageCode = "fr-fr"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
@@ -44,20 +44,20 @@ disableHugoGeneratorInject = false
   [params.author]
   name = "Jerome"
 
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  dateform        = "2 Jan 2006"
+  dateformShort   = "2 Jan "
+  dateformNum     = "01-02-2006"
+  dateformNumTime = "01-02-2006 15:04"
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
+  description = ""
   keywords = ""
   images = [""]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Toto"
+  homeSubtitle = ""
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -76,7 +76,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating system. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -234,11 +234,13 @@ disableHugoGeneratorInject = false
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.en.params]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = ""
 
   [languages.fr]
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  [languages.fr.params]
+    subtitle  = ""
 
 
 [menu]
